@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EtchLog — Powerful. Pure Privacy. 100% Free.</title>
+<meta name="description" content="EtchLog is a powerful, free single-user income and expense tracker for desktop and laptop. No login, no registration, no cloud. Your data never leaves your device.">
+<style>
+  :root{--teal:#0e7c7b;--teal-dark:#0b6968;--ink:#1c2b2a;--muted:#4f605f;--bg:#f5f8f7;--card:#ffffff;--line:#dde6e5;--btn-text:#ffffff;}
+  @media (prefers-color-scheme:dark){:root{--teal:#2fb5b2;--teal-dark:#177a78;--ink:#e6efee;--muted:#9fb4b3;--bg:#0f1a1a;--card:#162423;--line:#2a3d3c;--btn-text:#ffffff;}}
+  *{box-sizing:border-box;}
+  body{font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);margin:0;line-height:1.6;}
+  .wrap{max-width:740px;margin:0 auto;padding:44px 20px 60px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .brand .mark{width:40px;height:40px;border-radius:10px;background:var(--teal-dark);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:15px;}
+  .brand .name{font-size:21px;font-weight:700;}
+  .brand .name b{font-weight:800;color:var(--teal);}
+  .by{font-size:13px;color:var(--muted);margin:2px 0 30px 50px;}
+  h1{font-size:clamp(26px,5vw,32px);font-weight:800;line-height:1.25;margin:0 0 12px;}
+  .lead{font-size:17px;color:var(--muted);margin:0 0 26px;max-width:600px;}
+  .lead b{color:var(--ink);}
+  .download-btn{display:inline-flex;align-items:center;gap:10px;background:var(--teal-dark);color:var(--btn-text);font-size:16px;font-weight:700;padding:14px 28px;border-radius:10px;text-decoration:none;box-shadow:0 4px 14px rgba(14,124,123,.25);}
+  .download-btn:hover{filter:brightness(.9);}
+  .download-btn:focus-visible,a:focus-visible{outline:3px solid var(--teal);outline-offset:2px;}
+  .meta-line{font-size:13px;color:var(--muted);margin-top:10px;}
+  section{margin-top:44px;}
+  h2{font-size:20px;margin:0 0 10px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;}
+  .card p{margin:0 0 10px;color:var(--muted);font-size:15px;}
+  .card p:last-child{margin-bottom:0;}
+  .card p b{color:var(--ink);}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  @media(max-width:560px){.grid{grid-template-columns:1fr;}}
+  .feature h3{font-size:15px;margin:0 0 4px;}
+  .feature p{font-size:13.5px;margin:0;}
+  .feature .icon{font-size:20px;margin-bottom:4px;}
+  ol.steps{margin:0;padding-left:20px;color:var(--muted);font-size:15px;}
+  ol.steps li{margin-bottom:8px;}
+  ol.steps b{color:var(--ink);}
+  a{color:var(--teal-dark);}
+  @media (prefers-color-scheme:dark){a{color:#6cb6ff;}}
+  .contact a{margin-right:16px;}
+  footer{margin-top:50px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brand"><div class="mark" aria-hidden="true">EL</div><div class="name">Etch<b>Log</b></div></div>
+  <div class="by">Built by Ravi Iyer</div>
+
+  <h1>Powerful. Pure Privacy. 100% Free.</h1>
+  <p class="lead"><b>A powerful, free single-user income and expense tracker for desktop and laptop.</b> Keep as many separate books as you need — personal, household, a trip, college, freelance or a small business — with no login, no registration and no cloud.</p>
+
+  <a class="download-btn" href="./etchlog.html" download="etchlog.html">⬇ Download EtchLog</a>
+  <div class="meta-line">Free to use · One file · Works offline · Nothing to install</div>
+
+  <section>
+    <h2>Private by design</h2>
+    <div class="card">
+      <p><b>No login. No registration. No cloud. Your data never leaves your device.</b></p>
+      <p>Everything you enter stays on your device, in your browser. Nobody else can see it, including us. You decide what to share: nothing leaves your device unless you send a file yourself. EtchLog is free to use.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Reports you control</h2>
+    <div class="card">
+      <p>Print, Snapshot and read-only Share pages let you pick exactly what goes in. Send one file and it opens on any device, with no login at the other end. Snapshot and Share can carry an optional casual PIN — a simple lock to stop a shared report being opened by accident, not strong security.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>What is inside</h2>
+    <div class="grid">
+      <div class="card feature"><div class="icon" aria-hidden="true">📚</div><h3>Multiple books</h3><p>Each book has its own categories, currencies, budgets and notes. All Books shows them together.</p></div>
+      <div class="card feature"><div class="icon" aria-hidden="true">💱</div><h3>Multi-currency</h3><p>Enter in any currency. Figures are converted using a monthly exchange-rate library that you control.</p></div>
+      <div class="card feature"><div class="icon" aria-hidden="true">📊</div><h3>Annual expense budgets</h3><p>Set a yearly amount for each expense category and see year-to-date status in Red, Amber or Green. Income is not budgeted.</p></div>
+      <div class="card feature"><div class="icon" aria-hidden="true">📤</div><h3>Import, export, backup</h3><p>CSV import with a ready-made template, CSV export, and JSON backup and restore.</p></div>
+      <div class="card feature"><div class="icon" aria-hidden="true">🔍</div><h3>Global search</h3><p>Find any entry across every book, instantly.</p></div>
+      <div class="card feature"><div class="icon" aria-hidden="true">🌙</div><h3>Privacy mode and dark mode</h3><p>Hide every amount on screen with one tap, and switch to a dark theme when you prefer.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Getting started</h2>
+    <div class="card">
+      <ol class="steps">
+        <li><b>Download</b> the file with the button above and keep it in a folder you will find again.</li>
+        <li><b>Open it</b> in Chrome, Edge, Firefox or Safari. There is nothing to install and no account to create. Use your downloaded copy rather than this web page, so your books stay on your own computer.</li>
+        <li><b>Back up now and then</b> from Data ▾ → Backup / Restore. Your books are saved in your browser, so clearing the browser's data erases them.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it stays offline</h2>
+    <div class="card">
+      <p>EtchLog runs entirely in your browser from a single file. The only network use is an optional, read-only check for notices, such as a new release, and for the term of the day. Nothing from your books is ever sent.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Questions or feedback</h2>
+    <p><a href="mailto:rshanx@gmail.com">✉ Email Ravi</a><a href="https://forms.gle/j5dPnX3QcJe8pmqB8" target="_blank" rel="noopener">📋 Feedback / bug form</a></p>
+  </section>
+
+  <footer>
+    EtchLog · © Ravi Iyer. All rights reserved. Unauthorized copying, modification, or redistribution of this software without a licence from the author is prohibited.
+  </footer>
+
+</div>
+</body>
+</html>
